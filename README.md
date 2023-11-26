@@ -1,6 +1,12 @@
 # passwordChecker
 # Password Checker using Have I Been Pwned API
 
+Absolutely! Here's the README content formatted purely as plain text, preserving spaces and indentation:
+
+markdown
+Copy code
+# Password Checker using Have I Been Pwned API
+
 This script checks the security status of passwords by querying the "Have I Been Pwned" API, which checks if a password has been exposed in known data breaches.
 
 ## Prerequisites
@@ -12,18 +18,16 @@ This script checks the security status of passwords by querying the "Have I Been
 
 1. Clone or download the repository.
 2. Install the required Python libraries using pip:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-## Usage
-
+   
+   ```bash
+   pip install -r requirements.txt
+Usage
 Run the script from the command line and pass the passwords you want to check:
 
-```bash
+bash
+Copy code
 python password_checker.py password1 password2 password3
-
-eplace password1, password2, etc., with the passwords you want to check.
+Replace password1, password2, etc., with the passwords you want to check.
 
 The script will output whether each password has been found in any data breaches or not. If found, it's advisable to change the password immediately for enhanced security.
 
@@ -38,3 +42,8 @@ This script does not send the actual password to the API. It only sends the hash
 Always handle passwords securely and avoid exposing them unnecessarily.
 Credits
 This script utilizes the Have I Been Pwned API (https://haveibeenpwned.com/API/v3) for checking compromised passwords.
+
+vbnet
+Copy code
+
+This plain text version should retain spaces and indentation when copied and pasted into your `README.md` file in your GitHub repository.
