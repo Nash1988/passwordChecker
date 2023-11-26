@@ -1,5 +1,5 @@
-Password Checker using Have I Been Pwned API
-This script checks the security status of passwords by querying the "Have I Been Pwned" API, which checks if a password has been exposed in known data breaches.
+  Password Checker using Have I Been Pwned API
+  This script checks the security status of passwords by querying the "Have I Been Pwned" API, which checks if a password     has been exposed in known data breaches.
 
 Prerequisites
 Python 3.x
